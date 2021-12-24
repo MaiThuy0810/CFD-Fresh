@@ -1,0 +1,18 @@
+@import "../../../assets/css/style.scss";
+.paymentMethod {
+  margin-top: 64px;
+  .titleSmall {
+    margin-bottom: 32px;
+  }
+  .wrapCreditCard {
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 16px;
+    .wrapInput {
+      display: flex;
+    }
+  }
+  .paymentMethodPaypal {
+    margin: 16px 0px;
+  }
+}

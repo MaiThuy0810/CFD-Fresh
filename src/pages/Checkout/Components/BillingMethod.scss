@@ -1,0 +1,10 @@
+@import "../../../assets/css/style.scss";
+.billingMethod {
+  margin-top: 64px;
+  &__fed {
+    margin-top: 32px;
+  }
+  &__dhl {
+    margin-top: 16px;
+  }
+}

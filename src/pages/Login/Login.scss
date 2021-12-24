@@ -1,0 +1,15 @@
+@import "../../assets/css/style.scss";
+.login {
+  .container {
+    form {
+      label {
+        input {
+          border-radius: 12px;
+          padding: 10px;
+          background: $gray-tag;
+          border: 1px solid $gray-bordercard;
+        }
+      }
+    }
+  }
+}

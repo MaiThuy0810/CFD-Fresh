@@ -1,0 +1,23 @@
+@import "../../../assets/css/style.scss";
+.wrapcontent {
+  .wrapcontent__title {
+    padding-top: 64px;
+    display: flex;
+    justify-content: end;
+    .gotoBog {
+      display: flex;
+      align-items: center;
+      h3 {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .wrapourblog {
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 0px 64px 0px;
+    &___right {
+    }
+  }
+}

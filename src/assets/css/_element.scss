@@ -1,0 +1,64 @@
+h3 {
+  font-family: Poppins Semi Bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--h3-fs);
+  color: $black-footer;
+  text-transform: capitalize;
+  line-height: 27px;
+}
+::placeholder {
+  color: $gray-price;
+  font-size: 14px;
+  font-family: Open Sans Regular;
+}
+select {
+  margin-bottom: 32px;
+  option:nth-child(1) {
+    color: $gray-price;
+    font-size: 14px;
+    font-family: Open Sans Regular;
+  }
+  border-radius: 12px;
+  padding: 10px;
+  background: $gray-tag;
+  border: 1px solid $gray-bordercard;
+}
+label {
+  font-size: 12px;
+  font-family: Poppins Semi Bold;
+}
+
+.titleSmall {
+  font-family: Open Sans Regular;
+  font-size: 12px;
+  color: $gray-price;
+  margin-top: 4px;
+}
+.error-text {
+  color: red;
+}
+textarea {
+  width: 100%;
+  max-height: 112px;
+  border-radius: 12px;
+  padding: 10px;
+  background: $gray-tag;
+  border: 1px solid $gray-bordercard;
+}
+
+.title {
+  font-size: 12px;
+  font-family: Poppins Medium;
+  color: $black-footer;
+  line-height: 23px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.discount {
+  font-family: Poppins Semi Bold;
+  font-size: 12px;
+  color: $gray-price;
+  text-decoration: line-through $gray-price;
+}
